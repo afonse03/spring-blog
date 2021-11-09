@@ -36,7 +36,7 @@
 //  (8, 'Barney', 'CA'),
 //  (12, 'Bowser', 'TX');
 
-package com.codeup.springblog.model;
+package com.codeup.springblog.models;
 
 import javax.persistence.*;
 

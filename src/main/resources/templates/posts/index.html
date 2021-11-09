@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Views</title>
+</head>
+<body>
+  <nav th:replace="partials/partials.html :: navbar"></nav>
+
+  <h1>All Posts:</h1>
+
+  <ul>
+    <li th:each="post : ${posts}">
+      <h5><span th:text="${post.title}"></span></h5>
+    </li>
+  </ul>
+
+<script th:replace="partials/partials.html :: bootstrap-js"></script>
+</body>
+</html>
